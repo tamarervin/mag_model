@@ -1,0 +1,33 @@
+# environment file
+
+# for creation of necessary conda environment
+name: mag_model  # environment name
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - astropy
+  # - jupyter
+  - matplotlib
+  # - mkdocs
+  # - mkdocs-jupyter
+  # - mkdocs-material
+  - numpy
+  - pathlib
+  - pandas
+  - pip
+  - pymdown-extensions
+  - python <= 3.8
+  # - python-kaleido
+  - scipy
+  # - scikit-learn
+  # - scikit-image
+  - sunpy
+  - notebook
+  - pip:
+    - pfsspy
+    - astrospice
+    - heliopy
+    - streamtracer
+    - pyhdf
+    - psipy
